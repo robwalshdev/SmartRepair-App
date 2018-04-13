@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3125DD361FD44AE8005D6ADC /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125DD351FD44AE8005D6ADC /* TouchViewController.swift */; };
+		3125DD381FD44FAF005D6ADC /* VibrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125DD371FD44FAF005D6ADC /* VibrateViewController.swift */; };
+		3125DD3A1FD450A0005D6ADC /* FlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125DD391FD450A0005D6ADC /* FlashViewController.swift */; };
+		3125DD3C1FD451F1005D6ADC /* ChargerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125DD3B1FD451F1005D6ADC /* ChargerViewController.swift */; };
+		313007131FDC3787004E6F9E /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313007121FDC3787004E6F9E /* SoundViewController.swift */; };
+		313007171FDC4F24004E6F9E /* despacito_marimba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 313007161FDC4F24004E6F9E /* despacito_marimba.mp3 */; };
+		313A497E1FD42145002DCC49 /* CheckUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313A497D1FD42145002DCC49 /* CheckUpViewController.swift */; };
+		314348F21FCF0057003A8877 /* LoyaltyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314348F11FCF0057003A8877 /* LoyaltyViewController.swift */; };
 		3197BA831FBCAD60006272DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197BA821FBCAD60006272DE /* AppDelegate.swift */; };
 		3197BA851FBCAD60006272DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197BA841FBCAD60006272DE /* ViewController.swift */; };
 		3197BA881FBCAD60006272DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3197BA861FBCAD60006272DE /* Main.storyboard */; };
 		3197BA8A1FBCAD60006272DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3197BA891FBCAD60006272DE /* Assets.xcassets */; };
 		3197BA8D1FBCAD60006272DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3197BA8B1FBCAD60006272DE /* LaunchScreen.storyboard */; };
+		3197BA971FBCB65D006272DE /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197BA961FBCB65D006272DE /* Artwork.swift */; };
+		3197BA9B1FBCBA1C006272DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197BA9A1FBCBA1C006272DE /* MainViewController.swift */; };
+		31A469811FD460C1007872F2 /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A469801FD460C1007872F2 /* ProximityViewController.swift */; };
+		31A469831FD464E8007872F2 /* 3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A469821FD464E8007872F2 /* 3DViewController.swift */; };
+		31D6DA521FDC276E00095BBB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D6DA511FDC276E00095BBB /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3125DD351FD44AE8005D6ADC /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		3125DD371FD44FAF005D6ADC /* VibrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateViewController.swift; sourceTree = "<group>"; };
+		3125DD391FD450A0005D6ADC /* FlashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashViewController.swift; sourceTree = "<group>"; };
+		3125DD3B1FD451F1005D6ADC /* ChargerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargerViewController.swift; sourceTree = "<group>"; };
+		313007121FDC3787004E6F9E /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		313007161FDC4F24004E6F9E /* despacito_marimba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = despacito_marimba.mp3; sourceTree = "<group>"; };
+		313A497D1FD42145002DCC49 /* CheckUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUpViewController.swift; sourceTree = "<group>"; };
+		314348F11FCF0057003A8877 /* LoyaltyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyViewController.swift; sourceTree = "<group>"; };
 		3197BA7F1FBCAD60006272DE /* Smart Repairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Repairs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3197BA821FBCAD60006272DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3197BA841FBCAD60006272DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,13 @@
 		3197BA891FBCAD60006272DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3197BA8C1FBCAD60006272DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3197BA8E1FBCAD61006272DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3197BA941FBCADCD006272DE /* logo smart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo smart.png"; sourceTree = "<group>"; };
+		3197BA951FBCADCD006272DE /* logo smart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo smart2.png"; sourceTree = "<group>"; };
+		3197BA961FBCB65D006272DE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		3197BA9A1FBCBA1C006272DE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		31A469801FD460C1007872F2 /* ProximityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
+		31A469821FD464E8007872F2 /* 3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DViewController.swift; sourceTree = "<group>"; };
+		31D6DA511FDC276E00095BBB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,9 @@
 		3197BA761FBCAD60006272DE = {
 			isa = PBXGroup;
 			children = (
+				313007161FDC4F24004E6F9E /* despacito_marimba.mp3 */,
+				3197BA9A1FBCBA1C006272DE /* MainViewController.swift */,
+				314348F11FCF0057003A8877 /* LoyaltyViewController.swift */,
 				3197BA811FBCAD60006272DE /* Smart Repairs */,
 				3197BA801FBCAD60006272DE /* Products */,
 			);
@@ -54,9 +85,21 @@
 		3197BA811FBCAD60006272DE /* Smart Repairs */ = {
 			isa = PBXGroup;
 			children = (
+				3197BA941FBCADCD006272DE /* logo smart.png */,
+				3197BA951FBCADCD006272DE /* logo smart2.png */,
 				3197BA821FBCAD60006272DE /* AppDelegate.swift */,
 				3197BA841FBCAD60006272DE /* ViewController.swift */,
+				3197BA961FBCB65D006272DE /* Artwork.swift */,
 				3197BA861FBCAD60006272DE /* Main.storyboard */,
+				313007121FDC3787004E6F9E /* SoundViewController.swift */,
+				31D6DA511FDC276E00095BBB /* Reachability.swift */,
+				31A469821FD464E8007872F2 /* 3DViewController.swift */,
+				31A469801FD460C1007872F2 /* ProximityViewController.swift */,
+				3125DD3B1FD451F1005D6ADC /* ChargerViewController.swift */,
+				3125DD391FD450A0005D6ADC /* FlashViewController.swift */,
+				3125DD371FD44FAF005D6ADC /* VibrateViewController.swift */,
+				3125DD351FD44AE8005D6ADC /* TouchViewController.swift */,
+				313A497D1FD42145002DCC49 /* CheckUpViewController.swift */,
 				3197BA891FBCAD60006272DE /* Assets.xcassets */,
 				3197BA8B1FBCAD60006272DE /* LaunchScreen.storyboard */,
 				3197BA8E1FBCAD61006272DE /* Info.plist */,
@@ -126,6 +169,7 @@
 				3197BA8D1FBCAD60006272DE /* LaunchScreen.storyboard in Resources */,
 				3197BA8A1FBCAD60006272DE /* Assets.xcassets in Resources */,
 				3197BA881FBCAD60006272DE /* Main.storyboard in Resources */,
+				313007171FDC4F24004E6F9E /* despacito_marimba.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D6DA521FDC276E00095BBB /* Reachability.swift in Sources */,
+				31A469811FD460C1007872F2 /* ProximityViewController.swift in Sources */,
+				314348F21FCF0057003A8877 /* LoyaltyViewController.swift in Sources */,
 				3197BA851FBCAD60006272DE /* ViewController.swift in Sources */,
+				313007131FDC3787004E6F9E /* SoundViewController.swift in Sources */,
+				3125DD3A1FD450A0005D6ADC /* FlashViewController.swift in Sources */,
+				3125DD381FD44FAF005D6ADC /* VibrateViewController.swift in Sources */,
+				3197BA971FBCB65D006272DE /* Artwork.swift in Sources */,
+				3125DD361FD44AE8005D6ADC /* TouchViewController.swift in Sources */,
+				31A469831FD464E8007872F2 /* 3DViewController.swift in Sources */,
 				3197BA831FBCAD60006272DE /* AppDelegate.swift in Sources */,
+				313A497E1FD42145002DCC49 /* CheckUpViewController.swift in Sources */,
+				3197BA9B1FBCBA1C006272DE /* MainViewController.swift in Sources */,
+				3125DD3C1FD451F1005D6ADC /* ChargerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +333,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YN5PD453C;
 				INFOPLIST_FILE = "Smart Repairs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robwalshdev.Smart-Repairs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +349,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YN5PD453C;
 				INFOPLIST_FILE = "Smart Repairs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robwalshdev.Smart-Repairs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
