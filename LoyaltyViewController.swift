@@ -17,7 +17,7 @@ class LoyaltyViewController: UIViewController {
     @IBOutlet var discountLabel: UILabel!
     
     var repairsTotal = 0
-    let secretPin = "0733"
+    let secretPin = "0000"
     var counter = 0
     var pinEntered = String()
     
